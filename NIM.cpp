@@ -6,6 +6,8 @@
 
 using namespace std;
 
+//Þetta fall skrifar út nafn nemenda sem er að gera verkefni í Inngang í Tölvunarfræði.
+void helloDaniel();
 //Þetta fall á að birta stöðu allra eldspýtnahrúgna (hrúgur í fleirtölu eignarfalli)
 void birta( int* hruga );
 
@@ -31,6 +33,8 @@ int hrugufjoldi;
 //Hér byrjar aðalforritið:
 int main( )
 {
+	helloDaniel();
+
 	int val;
 	do
 	{
@@ -229,4 +233,10 @@ int samtals( int* hruga )
 	}
 
 	return samtala;
+}
+
+void helloDaniel()
+{
+	cout << "\nSVENNI DAL - 070484 -  \\_(\"=\")_/\n\n";
+	return;
 }
